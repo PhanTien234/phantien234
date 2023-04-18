@@ -4,6 +4,8 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=phantien234&label=Profile%20views&color=0e75b6&style=flat" alt="phantien234" /> </p>
 
+- ☺️ I’m  **Phan Minh Tien**
+
 - 🔭 I’m interested in coding at **ASP dotnet programming**
 
 - 🌱 I’m currently learning **ASP.NET Core,C# and ReactJS**
