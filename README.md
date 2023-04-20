@@ -12,7 +12,7 @@
 
 - ❤️ I’m looking to collaborate on **...**
 
-- 📝 I regularly write code on [Visual Sudio, Visual Studio Code and some IDE of JETBRAIN](Visual Sudio, Visual Studio Code and some IDE of JETBRAIN)
+- 📝 I regularly write code on [Visual Sudio, Visual Studio Code and some IDE of JETBRAIN]
 
 - 💬 Ask me about **ASP.NET Core**
 
