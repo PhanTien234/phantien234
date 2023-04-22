@@ -27,8 +27,8 @@ jobs:
           branch: master
           force: true
       - name: Set outputs
-        env:
-          OUTPUT_VAR: value
         run: |
           echo "OUTPUT_VAR=value" >> $GITHUB_ENV
           echo "::set-env name=OUTPUT_VAR::value" >> $GITHUB_ENV
+        env:
+          OUTPUT_VAR: value
