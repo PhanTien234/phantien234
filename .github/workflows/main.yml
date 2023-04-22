@@ -5,6 +5,10 @@ name: Generate Snake
 # Controls when the action will run. This action runs every 6 hours.
 
 on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
   schedule:
       # every 6 hours
     - cron: "0 */6 * * *"
@@ -27,14 +31,21 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.8
+          submodules: 'recursive'
+        if: github.ref != 'refs/heads/main'
+
+      - name: Set up Node.js 16.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.x
+
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          npm install
 
       - name: Run tests
-        run: python -m unittest discover -s tests/
+        run: |
+          npm run test
     # Generates the snake  
       - uses: Platane/snk@master
         id: snake-gif
