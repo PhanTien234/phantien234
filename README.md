@@ -37,7 +37,7 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=phantien234&" alt="phantien234" /></p>
 
-<h2 align="center">Look the snake is eating my contributions..🐍</h2>
+<h2 align="center">👀 🥪🧀Look The Snake Is Eating My Contributions..🐍 🥪🧀</h2>
 
 ![snake gif](https://github.com/PhanTien234/PhanTien234/blob/output/github-contribution-grid-snake.gif)
 
