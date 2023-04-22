@@ -30,9 +30,9 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          branch: master
           force: true
       - name: Set outputs
-        run: |
-          echo "OUTPUT_VAR=value" >> $GITHUB_ENV
-          echo "OUTPUT_VAR=value" >> $GITHUB_ENV
+        run: echo "::set-output name=OUTPUT_VAR::value"
+        env:
+          OUTPUT_VAR: value
