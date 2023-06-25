@@ -20,7 +20,7 @@
 
 - 📄 Know about my experiences(teamwork skill and ...)
 
-- 🤣 Fun fact **I'm extrovert and have funny**
+- 🤣 Fun fact **I'm an extrovert and have funny**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
